@@ -1,0 +1,24 @@
+{
+  "name": "template-vite-ts-chrome-extension",
+  "version": "1.0.0",
+  "description": "Template repository for building chrome extensions with Vite + Typescript + CrxJS",
+  "author": "Tyler Lentz",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "pack": "PACK=true vite build"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.23",
+    "@types/chrome": "^0.0.251",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.1",
+    "typescript": "^5.4.5",
+    "vite": "^4.3.3",
+    "vite-plugin-clean": "^1.0.0",
+    "vite-plugin-zip-pack": "^1.0.6"
+  }
+}
